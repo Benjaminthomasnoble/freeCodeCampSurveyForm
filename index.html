@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <main>
+        <div class="header-text-box">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <form action="#" id="survey-form">
+            <div class="survey-input">
+                <input id="name" type="text" placeholder="Enter your name">
+            </div>
+            <div class="survey-input">
+                <!-- add validation psuedoclass in main.css -->
+                <input id="email" type="email" placeholder="Enter your email">
+            </div>
+            <div class="survey-input">
+                <!-- add validation class to main.css -->
+                <input id="number" type="number" min="10" max="99">
+            </div>
+            <div class="survey-input">
+                <input id="name" type="text">
+            </div>
+            <div class="survey-input">
+                <div>
+                    <input type="radio" name="recommendation" value="definitely">
+                    <label for="definitely">Definitely</label>
+                </div>
+                <div>
+                    <input type="radio" name="recommendation" value="maybe">
+                    <label for="maybe">Maybe</label>
+                </div>
+                <div>
+                    <input type="radio" name="recommendation" value="not sure">
+                    <label for="not sure">Not sure</label>
+                </div>
+            </div>
+            <select name="dropwdown" id="dropdown">
+                <option value="challenges"></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+        </form>
+    </main>
+
+</body>
+
+</html>
