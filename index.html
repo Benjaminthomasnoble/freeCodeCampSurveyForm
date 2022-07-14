@@ -16,18 +16,18 @@
         </div>
         <form action="#" id="survey-form">
             <div class="survey-input">
-                <label for="name">Name</label><br>
-                <input class="survey-box" id="name" name="name" type="text" placeholder="Enter your name">
+                <label id="name-label" for="name">Name</label><br>
+                <input required="required" class="survey-box" id="name" name="name" type="text"
+                    placeholder="Enter your name">
             </div>
             <div class="survey-input">
-                <!-- add validation psuedoclass in main.css -->
-                <label for="Email">Email</label><br>
-                <input class="survey-box" id="email" name="email" type="email" placeholder="Enter your email">
+                <label id="email-label" for="Email">Email</label><br>
+                <input required="required" class="survey-box" id="email" name="email" type="email"
+                    placeholder="Enter your email">
             </div>
             <div class="survey-input">
-                <!-- add validation class to main.css -->
-                <label for="number">Number</label><br>
-                <input class="survey-box" id="number" name="number" type="number" min="10" max="99">
+                <label id="number-label" for="number">Number</label><br>
+                <input placeholder="10" class="survey-box" id="number" name="number" type="number" min="10" max="99">
             </div>
             <div class="survey-input">
                 <label for="dropdown">Which option best describes your current role?</label><br>
