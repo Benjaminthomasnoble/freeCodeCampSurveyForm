@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(168, 168, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+p {
+    font-size: 18px;
+}
+
+#title {
+    margin: .5px;
+    text-align: center;
+}
+
+#description {
+    font-style: italic;
+}
+
+.header-text-box {}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#survey-form {
+    max-width: 720px;
+    background-color: rgba(24, 24, 57, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.survey-box {
+    line-height: 30px;
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+.input-text-spacing {
+    margin: 7px 0px 7px 0px;
+}
+
+.survey-input {
+    font-size: 18px;
+    margin: 15px 0px 15px 0px;
+}
+
+#comments-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#comments::placeholder {
+    font-family: sans-serif;
+}
+
+button {
+    color: white;
+    width: 100%;
+    background-color: green;
+    padding: 15px 15px 15px 15px;
+    font-family: sans-serif;
+}
